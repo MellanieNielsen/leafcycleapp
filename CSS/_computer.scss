@@ -5,6 +5,9 @@
 
   }
 
-
+  @mixin blurText($blur: 4px){
+    color: transparent;
+    text-shadow: 0 0 $blur rgba(0, 0, 0, 0.5);
+  }
 
 }
