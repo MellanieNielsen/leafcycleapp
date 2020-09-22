@@ -85,7 +85,7 @@ img {
 }
 
 .sortbox{
-  height: 400px;
+  height: 100%;
   width: 100%;
   background: black;
 }
@@ -149,9 +149,42 @@ img {
   height: 510px;
 }
 
+.graybox3{
+  width: 550px;
+  height:210px;
+  background-color: dimgray;
+  margin: 25px;
+}
 
 
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+.statestikbilled{
+  width: 550px;
+  height:250px;
+  background-color: dimgray;
+  margin: 25px;
+}
+
+.state{
+  width: 400px;
+  height: 90px;
+  margin-left: 70px;
+}
 
 
 

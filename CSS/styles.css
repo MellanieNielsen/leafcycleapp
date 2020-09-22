@@ -73,7 +73,7 @@ img {
   margin-top: 10px; }
 
 .sortbox {
-  height: 400px;
+  height: 100%;
   width: 100%;
   background: black; }
 
@@ -127,6 +127,36 @@ img {
   width: 210px;
   height: 510px; }
 
+.graybox3 {
+  width: 550px;
+  height: 210px;
+  background-color: dimgray;
+  margin: 25px; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd; }
+
+th, td {
+  text-align: left;
+  padding: 8px; }
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; }
+
+.statestikbilled {
+  width: 550px;
+  height: 250px;
+  background-color: dimgray;
+  margin: 25px; }
+
+.state {
+  width: 400px;
+  height: 90px;
+  margin-left: 70px; }
+
 @media screen and (min-width: 754px) {
   body {
     margin: 0;
@@ -134,9 +164,6 @@ img {
     background-image: url(../Images/h.jpg);
     background-repeat: repeat;
     opacity: 0.7; }
-  .sortbox {
-    height: 800px;
-    background: black; }
   .graybox {
     width: 950px;
     height: 150px;
@@ -148,7 +175,58 @@ img {
   .text1 {
     font-size: 40px;
     color: transparent;
-    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5); } }
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
+  .graybox2 {
+    width: 950px;
+    height: 250px;
+    background-color: dimgray;
+    margin-left: 50px;
+    margin-top: 20px; }
+  .text3 {
+    display: flex;
+    font-size: 35px;
+    color: black;
+    margin: 25px;
+    justify-content: center; }
+  .billedbox {
+    width: 950px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px; }
+  .billede1 {
+    width: 120px;
+    height: 50px; }
+  .billede2 {
+    width: 210px;
+    height: 510px; }
+  .graybox3 {
+    width: 950px;
+    height: 210px;
+    background-color: dimgray;
+    margin-left: 50px;
+    margin-top: 20px; }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd; }
+  th, td {
+    text-align: left;
+    padding: 8px; }
+  tr:nth-child(even) {
+    background-color: #f2f2f2; }
+  .statestikbilled {
+    width: 950px;
+    height: 410px;
+    background-color: dimgray;
+    margin-left: 50px;
+    margin-top: 20px; }
+  .state {
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 600px;
+    height: 500px; } }
 
 @media screen and (min-width: 1200px) {
   body {
