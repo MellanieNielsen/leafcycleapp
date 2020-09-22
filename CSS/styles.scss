@@ -16,6 +16,8 @@ $computer: "screen and (min-width:1200px)";
 
 body {
   margin: 0; /* Ingen kanter i siden af browser */
+  background-image: url(../Images/h.jpg);
+  opacity: 0.7;
 }
 
 h1, h2, h3, h4, h5, h6 {
