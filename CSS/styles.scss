@@ -149,10 +149,7 @@ img {
 }
 
 .graybox3{
-  width: 550px;
-  height:210px;
-  background-color: dimgray;
-  margin: 25px;
+@extend .graybox2;
 }
 
 
