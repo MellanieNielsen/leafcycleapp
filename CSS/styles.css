@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.margin-left {
+  margin-left: 100px; }
+  .margin-leftDouble {
+    margin-left: 200px; }
+
 * {
   /* Gælder alt på hele siden */
   box-sizing: border-box;

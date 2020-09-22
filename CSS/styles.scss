@@ -4,6 +4,10 @@ $marginLeftDefault:100px;
 
 .margin-left{
   margin-left: $marginLeftDefault;
+
+  &Double{
+    margin-left: $marginLeftDefault *2;
+  }
 }
 
 
