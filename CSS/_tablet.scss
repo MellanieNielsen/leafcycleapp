@@ -7,6 +7,35 @@
     opacity: 0.7;
   }
 
+  @mixin blurText($blur: 4px){
+    color: transparent;
+    text-shadow: 0 0 $blur rgba(0, 0, 0, 0.5);
+  }
+
+  .sortbox{
+    height: 800px;
+    background: black;
+  }
+
+  .graybox{
+    width: 950px;
+    height: 150px;
+    background-color: dimgray;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .text{
+    font-size: 40px;
+
+  }
+
+  .text1{
+    font-size: 40px;
+    @include blurText;
+  }
+
+
 
 
 

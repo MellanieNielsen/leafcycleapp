@@ -1,4 +1,4 @@
-$tablet: "screen and (min-width: 768px)";
+$tablet: "screen and (min-width: 754px)";
 $computer: "screen and (min-width:1200px)";
 
 
@@ -17,7 +17,7 @@ body {
   background-image: url(../Images/h.jpg);
   background-size: 100%;
   background-repeat: repeat;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,7 +79,41 @@ img {
   margin-top: 10px;
 }
 
+@mixin blurText($blur: 4px){
+  color: transparent;
+  text-shadow: 0 0 $blur rgba(0, 0, 0, 0.5);
+}
 
+.sortbox{
+  height: 400px;
+  width: 100%;
+  background: black;
+}
+
+
+.graybox{
+  width: 550px;
+  height: 110px;
+  background-color: dimgray;
+  margin: 25px;
+}
+
+.text{
+  display: flex;
+  font-size: 35px;
+  color: black ;
+  margin: 25px;
+  justify-content: center;
+}
+
+.text1{
+  display: flex;
+  font-size: 35px;
+  color: black ;
+  margin: 25px;
+  justify-content: center;
+  @include blurText;
+}
 
 
 

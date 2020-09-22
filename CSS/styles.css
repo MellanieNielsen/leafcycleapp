@@ -11,7 +11,7 @@ body {
   background-image: url(../Images/h.jpg);
   background-size: 100%;
   background-repeat: repeat;
-  opacity: 0.7; }
+  opacity: 0.8; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -72,13 +72,55 @@ img {
 .fa-shopping-basket {
   margin-top: 10px; }
 
-@media screen and (min-width: 768px) {
+.sortbox {
+  height: 400px;
+  width: 100%;
+  background: black; }
+
+.graybox {
+  width: 550px;
+  height: 110px;
+  background-color: dimgray;
+  margin: 25px; }
+
+.text {
+  display: flex;
+  font-size: 35px;
+  color: black;
+  margin: 25px;
+  justify-content: center; }
+
+.text1 {
+  display: flex;
+  font-size: 35px;
+  color: black;
+  margin: 25px;
+  justify-content: center;
+  color: transparent;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5); }
+
+@media screen and (min-width: 754px) {
   body {
     margin: 0;
     /* Ingen kanter i siden af browser */
     background-image: url(../Images/h.jpg);
     background-repeat: repeat;
-    opacity: 0.7; } }
+    opacity: 0.7; }
+  .sortbox {
+    height: 800px;
+    background: black; }
+  .graybox {
+    width: 950px;
+    height: 150px;
+    background-color: dimgray;
+    margin-left: 50px;
+    margin-top: 20px; }
+  .text {
+    font-size: 40px; }
+  .text1 {
+    font-size: 40px;
+    color: transparent;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5); } }
 
 @media screen and (min-width: 1200px) {
   body {
