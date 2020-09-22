@@ -78,7 +78,7 @@ img {
   margin-top: 10px;
 }
 
-@mixin blurText($blur: 3px){
+@mixin blurText($blur: 1px){
   color: transparent;
   text-shadow: 0 0 $blur rgba(0, 0, 0, 0.5);
 }
@@ -99,7 +99,7 @@ img {
 
 .text{
   display: flex;
-  font-size: 35px;
+  font-size: 25px;
   color: black ;
   margin: 25px;
   justify-content: center;
@@ -107,7 +107,7 @@ img {
 
 .text1{
   display: flex;
-  font-size: 35px;
+  font-size: 25px;
   color: black ;
   margin: 25px;
   justify-content: center;
@@ -167,17 +167,17 @@ th, td {
 tr:nth-child(even){background-color: #f2f2f2}
 
 
-.statestikbilled{
+.statestikbilled2{
   width: 550px;
-  height:250px;
+  height:350px;
   background-color: dimgray;
   margin: 25px;
 }
 
 .state{
-  width: 400px;
-  height: 90px;
-  margin-left: 70px;
+  width: 500px;
+  height: 200px;
+  margin-left: 25px;
 }
 
 
