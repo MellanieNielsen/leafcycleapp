@@ -1,3 +1,13 @@
 @media #{$tablet} {
+  body {
+    margin: 0; /* Ingen kanter i siden af browser */
+    background-image: url(../Images/h.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    opacity: 0.7;
+  }
+
+
+
 
 }
