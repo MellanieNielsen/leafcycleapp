@@ -3,8 +3,6 @@ $computer: "screen and (min-width:1200px)";
 
 
 
-@import "tablet";
-@import "computer";
 
 
 
@@ -57,10 +55,22 @@ img {
 
 
 
-@media #{$tablet} {
 
-}
 
-@media #{$computer} {
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "tablet";
+@import "computer";
