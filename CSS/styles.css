@@ -213,13 +213,13 @@ tr:nth-child(even) {
     background-color: #f2f2f2; }
   .statestikbilled2 {
     width: 950px;
-    height: 410px;
+    height: 450px;
     background-color: dimgray;
     margin-left: 50px;
     margin-top: 20px; }
   .state {
-    margin-left: 200px;
-    width: 600px;
+    margin-left: 150px;
+    width: 650px;
     height: 500px; } }
 
 @media screen and (min-width: 1200px) {
