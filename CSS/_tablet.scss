@@ -18,17 +18,21 @@
     background-color: dimgray;
     margin-left: 50px;
     margin-top: 20px;
+
+    .text{
+      font-size: 50px;
+
+
+      .text1{
+        font-size: 60px;
+        @include blurText;
+      }
+    }
   }
 
-  .text{
-    font-size: 50px;
 
-  }
 
-  .text1{
-    font-size: 60px;
-    @include blurText;
-  }
+
 
   .graybox2{
     width: 950px;
@@ -36,15 +40,21 @@
     background-color: dimgray;
     margin-left: 50px;
     margin-top: 20px;
+
+
+    .text3{
+      display: flex;
+      font-size: 40px;
+      color: black ;
+      margin: 25px;
+      justify-content: center;
+    }
+
+
+
   }
 
-  .text3{
-    display: flex;
-    font-size: 40px;
-    color: black ;
-    margin: 25px;
-    justify-content: center;
-  }
+
 
   .billedbox{
     width: 950px;
@@ -52,17 +62,22 @@
     display: flex;
     justify-content: space-evenly;
     margin: 15px;
+
+    .billede1{
+      width: 200px;
+      height: 100px;
+
+
+      .billede2{
+        width: 350px;
+        height: 750px;
+      }
+
+    }
+
   }
 
-  .billede1{
-    width: 200px;
-    height: 100px;
-  }
 
-  .billede2{
-    width: 350px;
-    height: 750px;
-  }
 
   .graybox3{
        width: 950px;
@@ -77,15 +92,19 @@
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ddd;
+
+
+
+    th, td {
+      text-align: left;
+      padding: 8px;
+      font-size: 20px;
+    }
+
+    tr:nth-child(even){background-color: #f2f2f2}
   }
 
-  th, td {
-    text-align: left;
-    padding: 8px;
-    font-size: 20px;
-  }
 
-  tr:nth-child(even){background-color: #f2f2f2}
 
   .statestikbilled2{
     width: 950px;
@@ -93,13 +112,15 @@
     background-color: dimgray;
     margin-left: 50px;
     margin-top: 20px;
+
+    .state{
+      margin-left: 150px;
+      width: 650px;
+      height: 500px;
+    }
+
   }
 
-  .state{
-    margin-left: 150px;
-    width: 650px;
-    height: 500px;
-  }
 
 
 }
