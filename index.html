@@ -10,17 +10,17 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Dashboard</title>
+    <title>Sigende titel</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="CSS/styles.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -28,109 +28,13 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#news">News</a>
-    <a href="#produkter">Produkter</a>
-    <div class="topnav-right">
-        <a href="#about">About</a>
-        <i class="fas fa-shopping-basket" style="font-size: 30px; color: white;"></i>
-    </div>
-</div>
-<br>
-
-<div class="sortbox">
-<br>
-    <div class="graybox">
-    <div class="text">Flest besøgende på siden på en dag</div>
-        <div class="text1">10.000</div>
-        <br>
-    </div>
-    <div class="graybox2">
-        <div class="text3">Mest besøgte & købte produkter</div>
-            <div class="billedbox">
-
-                    <div class="billede1">
-                        <img src="Images/81ySm3rC78L._AC_SL1500_.jpg" alt="Smartkit">
-                    </div>
-                    <div class="billede2">
-                        <img src="Images/Ultra-Violet1579007802.7537.jpg" alt="Trommer">
-                    </div>
-             </div>
-
-
-
-    </div>
-
-<div class="graybox3">
-        <table>
-            <tr>
-                <th>Produkt Navn</th>
-                <th>Antal set pr. år</th>
-                <th>Pris</th>
-                <th>Købt pr. måned</th>
-                <th>Købt pr. år</th>
-
-    </tr>
-
-            <tr>
-                <td>Startkit</td>
-                <td>78.000</td>
-                <td>1.500 kr</td>
-                <td>1.500 stk</td>
-                <td>15.000 stk</td>
-            </tr>
-
-            <tr>
-                <td>Trommer</td>
-                <td>44.200</td>
-                <td>10.000 kr</td>
-                <td>875 stk</td>
-                <td>9.625 stk</td>
-            </tr>
-
-            <tr>
-                <td>Bass</td>
-                <td>26.000</td>
-                <td>2.500 kr</td>
-                <td>550 stk</td>
-                <td>6.050 stk</td>
-            </tr>
-
-            <tr>
-                <td>Guitar</td>
-                <td>23.400</td>
-                <td>2.000 kr</td>
-                <td>400 stk</td>
-                <td>4.400 stk</td>
-            </tr>
-
-            <tr>
-                <td>Hand Kryboard</td>
-                <td>17.420</td>
-                <td>2.800 kr</td>
-                <td>335 stk</td>
-                <td>3.685 stk</td>
-            </tr>
-</table>
-<br>
-</div>
-        <div class="statestikbilled2">
-            <br>
-            <br>
-            <div class="state">
-                <img src="Images/tmi-ikoner_1600x900_gron_konjuktur.gif" alt="stattestik">
-            </div>
-        </div>
-<br>
-</div>
-</body>
-</html>
 <!-- Her skal sidens indhold ligge -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
     $(function () {
 
     });
 </script>
-
+</body>
+</html>
