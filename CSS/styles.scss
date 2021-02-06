@@ -1,6 +1,66 @@
 $theme-colors: (
-        "primary": #0074d9,
-        "danger": #ff4136
+        "primary": #7cbaaa,
+        "danger": #FFFFFF,
+        "Orange": #FFA000,
+        "black": #000
+
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+$spacer: 1em;
+$tablet: "screen and (min-width: 768px)";
+$computer: "screen and (min-width:1200px)";
+
+
+.hentappmobil{
+  background-image: url("../Images/grå-baggrund.png") ;
+  background-repeat: no-repeat;
+}
+.hentapptablet{
+  background-image: url("../Images/app_mobil.png") ;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 768px;
+}
+.hentappteksttablet{
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+}
+.hentapp{
+  background-image: url("../Images/Illustration1.png") ;
+  background-repeat: no-repeat;
+  height: 828px;
+
+}
+.hentapptekst{
+  position: absolute;
+  margin: auto;
+  top: 35%;
+  left: 50%;
+}
+.fnverdensmål{
+  max-width: 100%;
+  min-width: 100px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: orange;
+}
+h1{
+  font-family: Berlin Sans FB regular, sans-serif;
+}
+h2{
+  font-family: Berlin Sans FB regular, sans-serif;
+}
+h3{
+  font-family: Berlin Sans FB regular, sans-serif;
+}
+@import "tablet";
+@import "computer";
+@import "myStyles";

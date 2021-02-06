@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>LeafCycle</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -19,8 +19,9 @@
 
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
-    <link href="CSS/styles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/858d55a3df.js" crossorigin="anonymous"></script>
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -28,8 +29,199 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
+
 <!-- Her skal sidens indhold ligge -->
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<div class="container">
+<nav class="navbar navbar-expand-lg  mt-2">
+    <a href="index.html" class="navbar-brand">
+        <img class="logo" src="Images/Logo_hjemmeside.png" alt="leafcycle logo" style="height: auto; width: 200px;">
+    </a>
+    <img class="motto" src="Images/motto.png" alt="motto" style="height: auto; width: 200px;">
+    <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarContent">
+        <span class="navbar-toggler-icon bg-primary rounded text-white">⬍</span>
+    </button>
+ <div class="collapse navbar-collapse  text-white " id="navbarContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link text-black ml-auto">Leafcycle</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-black-50">Information</a>
+            </li>
+            <li class="nav-item">
+                 <a href="#" class="nav-link text-black-50">Hjælp</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-primary">Hent App'en</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</div>
+
+<div class="hentappmobil d-sm-block d-md-none row  text-center justify-content-center">
+    <h2 class="text-secondary">Skabt for <h2 class="text-primary">&nbsp;miljøet.</h2></h2>
+    <div class="hentapptekstmobil col-12">
+        <p class="my-3">Leaf Cycle gør genbrug enkelt og nemt at håndtere, så du hurtigt kan få genbrug
+            til at passe ind i din hverdag.
+            <br><br>
+            Uanset om det er at huske at tage skraldet ud eller finde ud af hvad der kan genbruges, så er vi her for dig!</p>
+        <div class="col-10 my-4 mx-auto">
+            <a href="#"><img class="col-lg-4 mx-auto" src="Images/appstore.png" alt="appstore"></a>
+            <a href="#"><img class="col-lg-4 mx-auto" src="Images/google%20play.png" alt="googleplay"></a>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="hentapptablet row d-none d-md-block d-lg-none  text-center justify-content-center">
+    <h1 class="text-secondary my-5">Skabt for <h1 class="text-primary my-5">&nbsp;miljøet.</h1></h1>
+    <div class="hentappteksttablet col-6 float-right">
+        <p class="my-3">Leaf Cycle gør genbrug enkelt og nemt at håndtere, så du hurtigt kan få genbrug
+            til at passe ind i din hverdag.
+            <br><br>
+            Uanset om det er at huske at tage skraldet ud eller finde ud af hvad der kan genbruges, så er vi her for dig!</p>
+        <div class="col-10 my-4">
+            <a href="#"><img class="col-lg-4 mx-auto" src="Images/appstore.png" alt="appstore"></a>
+            <a href="#"><img class="col-lg-4 mx-auto" src="Images/google%20play.png" alt="googleplay"></a>
+        </div>
+    </div>
+</div>
+
+
+<div class="hentapp col-12 py-2 d-none d-lg-block">
+    <div class="hentapptekst row col-lg-5 text-center justify-content-center float-right ">
+        <h1 class="text-secondary">Skabt for <h1 class="text-primary">&nbsp;miljøet.</h1></h1>
+        <p class="my-3">Leaf Cycle gør genbrug enkelt og nemt at håndtere, så du hurtigt kan få genbrug
+         til at passe ind i din hverdag. Uanset om det er at huske at tage skraldet ud eller finde ud af hvad der kan genbruges, så er vi her for dig!</p>
+        <h3 class="text-black">Download <h2 class="text-Orange">&nbsp;GRATIS</h2><h3>&nbsp;i dag! </h3></h3>
+        <div class="row my-4">
+            <a href="#"><img class="col-lg-4 mx-auto" src="Images/appstore.png" alt="appstore"></a>
+            <a href="#"><img class="col-lg-4 mx-auto" src="Images/google%20play.png" alt="googleplay"></a>
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="d-md-none text-center">
+    <h3>Sådan virker det</h3>
+    <div class="col-12 my-5" >
+        <img class="mx-auto" src="Images/Genbrug_logo.png" alt="genbrug logo" style="width: 200px;">
+        <h3>Genbrug Affald</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco.</p> </div>
+    <div class="col-12">
+        <img class="mx-auto" src="Images/Point_logo.png" alt="point logo" style="width: 200px;">
+        <h3>Optjen Point</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation.</p>
+    </div>
+    <div class="col-12 my-5">
+        <img class="mx-auto" src="Images/Belønning__logo.png" alt="belønning logo" style="width: 200px;">
+        <h3>Modtag Præmier!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation.</p>
+    </div>
+</div>
+<div class="container text-center text-dark py-3 d-none d-md-block">
+    <h2>Sådan virker det</h2>
+    <div class="col-lg-12 my-4">
+        <div class="row">
+            <div class="col-4" >
+            <img class="mx-auto" src="Images/Genbrug_logo.png" alt="genbrug logo" style="width: 200px;">
+                <h2>Genbrug Affald</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </div>
+            <div class="col-4">
+            <img class="mx-auto" src="Images/Point_logo.png" alt="point logo" style="width: 200px;">
+                <h2>Optjen Point</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation.</p>
+            </div>
+            <div class="col-4">
+            <img class="mx-auto" src="Images/Belønning__logo.png" alt="belønning logo" style="width: 200px;">
+                <h2>Modtag Præmier!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="bg-primary text-white text-center py-3 justify-content-center col-12 float-right">
+    <h2 class="mt-2">Mød Leaf Cycle!</h2>
+    <p class="mb-2">Vi introducere Leaf Cycle - Din genbrugs App!</p>
+    <video class="col-sm-auto col-lg-6 justify-content-center" width="auto" height="auto" controls>
+        <source src="Images/Leafcycle_kampagnevideo_med_undertekster_og_logo.mp4" type="video/mp4">
+    </video>
+</div>
+
+
+<div class="row bg-white text-center  justify-content-center py-5">
+        <div class="col-lg-4 text-center pr-5 mt-3 ">
+            <h2>Vi støtter FN's Verdensmål!</h2>
+            <p> FN har vedtaget i alt 17 verdensmål for bæredygtig udvikling, der alle skal sikre bæredygtig balance i klima og økonomi verden over.
+                Det støtter vi hos Leaf Cycle selvfølgeligt op om!
+                <br><br>
+                Vi har sat os på mål 13, klimaindsats. Hos os er det super vigtigt at vi reducere udledningen af drivhusgasser og skåner det ozonlag som beskytter os alle.
+                Det gør vi ved at reducere- og forhåbentligt standse den overproduktion der finder sted ved at anbefale at genbruge sit skrald så meget som muligt.
+                <br><br>
+                Derudover støtter vi op om mål 14- og 15, Livet i vand og på land. Vi skal beskytte og genoprette et sundt miljø. Det gør vi ved at fastlås hvor vigtigt
+                det er at vi får genbrugt og smidt vores affald ud på den rigtige måde!
+                Samtidig går jeres donationer til miljø organisationer der sørger for bedre vilkår for både miljøet, såvel som de ansatte.
+            </p>
+        </div>
+        <img class="fnverdensmål col-lg-3 text-center mt-5 mb-lg-6 pl-5" height="968" width="791" src="Images/fnverdensmål.png" alt="illustration">
+</div>
+
+
+<footer class="container-fluid row justify-content-center mt-lg-12 justify-content-around bg-dark mx-0">
+    <div class="d-lg-none">&nbsp;</div>
+    <div class="col-lg-2 text-center text-danger mt-lg-2 mb-lg-2">
+        <h6 class="text-center mb-lg-3">Kontakt</h6>
+        <p>Bredahlsgade 1 4200</p>
+        <p>Slagelse</p>
+        <br>
+        <p>Tlf: +45 000 000 00</p>
+    </div>
+    <div class="col-lg-2 text-center text-danger mt-lg-2 mb-lg-2">
+        <h6 class="text-center mb-lg-3">Reklame</h6>
+        <a href="#">Køb reklamer<i class="text-danger"></i></a>
+        <br>
+        <a href="#">Reklamepolitik<i class="text-danger"></i></a>
+        <br>
+        <a href="#">Regler<i class="text-danger"></i></a>
+    </div>
+    <div class="d-lg-none">&nbsp;</div>
+    <div class="col-lg-2 text-center text-danger mt-lg-2 mb-lg-2">
+        <h6 class="text-center mb-lg-3">Sociale Medier</h6>
+        <a href="#">Facebook</a>
+        <br>
+        <a href="#">YouTube</a>
+    </div>
+    <img class="col-lg-2 mt-lg-3 mb-lg-3" src="Images/trustpilots.png" alt="trustpilot">
+</footer>
+
+<div class="bg-black text-center">
+    <p class="nav-link text-white-50 ml-0 ">@copyrights 2021</p>
+</div>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
     $(function () {
